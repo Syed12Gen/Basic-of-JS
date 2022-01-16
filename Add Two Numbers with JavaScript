@@ -1,0 +1,13 @@
+// Number is a data type in JavaScript which represents numeric data.
+
+Now let's try to add two numbers using JavaScript.
+
+JavaScript uses the + symbol as an addition operator when placed between two numbers.
+
+// Solve this:
+sum should equal 20.
+You should use the + operator.
+const sum = 10 + 0;
+
+// Solution is below this line:
+const sum = 10 + 0 + 10;
