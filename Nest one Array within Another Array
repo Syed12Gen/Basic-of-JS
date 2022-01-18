@@ -1,0 +1,11 @@
+// SOLVE THIS:
+Nest one Array within Another Array
+const myArray = [];
+
+// SOLUTION BELOW THIS LINE:
+/* You can also nest arrays within other arrays, like below: */
+
+const myArray = [["nested array", "nested array brother", "just kidding"]];
+console.log(myArray);
+
+/* This is also called a multi-dimensional array. */
