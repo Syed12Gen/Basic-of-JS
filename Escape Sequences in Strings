@@ -11,7 +11,11 @@ myStr should only contain characters shown in the instructions
 const myStr = ""; // Change this line
 
 // SOLUTION IS BELOW THIS LINE:
-const myStr =  "FirstLine\n\t\\Secondline\nThirdline" ;
+const myStr =  "FirstLine\n\t\\SecondLine\nThirdLine" ;
 
+output will be:
+FirstLine
+    \SecondLine
+ThirdLine
 
 
