@@ -1,0 +1,10 @@
+// SOLVE THIS:
+Build myStr from the strings This is the start. and This is the end. using the + operator. 
+Be sure to include a space between the two strings.
+const myStr = "";
+
+// SOLUTION BELOW THIS LINE:
+const myStr = "This is the start. " + "This is the end."; 
+console.log(myStr);
+
+/* The string This is the start. This is the end. would be displayed in the console. */
