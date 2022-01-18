@@ -1,0 +1,15 @@
+// SOLVE THIS:
+Use the .length property to count the number of characters in the lastName variable and assign it to lastNameLength.
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line:
+lastNameLength = lastName;
+
+
+// SOLUTION BELOW THIS LINE:
+let lastNameLength = 0;
+const lastName = "Lovelace";
+lastNameLength = lastName;
+
+console.log("lastName".length);
