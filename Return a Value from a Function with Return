@@ -1,0 +1,13 @@
+// SOLVE THIS:
+Create a function timesFive that accepts one argument, multiplies it by 5, and returns the new value.
+timesFive(5) should return 25
+timesFive(2) should return 10
+
+// SOLUTION BELOW THIS LINE:
+/* We can pass values into a function with arguments. You can use a return statement to send a value back out of a function. */
+
+function timesFive(num){
+  return num * 5;
+}
+console.log(timesFive(5));
+console.log(timesFive(2))
