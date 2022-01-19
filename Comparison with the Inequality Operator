@@ -1,0 +1,43 @@
+// SOLVE THIS:
+Add the inequality operator != in the if statement so that the function will return the string Not Equal when val is not equivalent to 99.
+testNotEqual(99) should return the string Equal
+
+testNotEqual("99") should return the string Equal
+
+testNotEqual(12) should return the string Not Equal
+
+testNotEqual("12") should return the string Not Equal
+
+testNotEqual("bob") should return the string Not Equal
+
+// Setup
+function testNotEqual(val) {
+  if (val) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+testNotEqual(10);
+
+
+// SOLUTION BELOW THIS LINE:
+
+// Setup
+function testNotEqual(val) {
+  if (val!=99) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+console.log(testNotEqual(99));
+console.log(testNotEqual("99"));
+console.log(testNotEqual(12));
+console.log(testNotEqual("bob"));
+
+// OUTPUT
+Equal
+Equal
+Not Equal
+Not Equal
