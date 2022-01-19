@@ -1,0 +1,8 @@
+// SOLVE THIS:
+There should be at least 5 sub-arrays in the list
+const myList = [];
+
+
+// SOLUTION BELOW THIS LINE:
+const myList = [["small frappe", 2], ["medium frappe", 3], ["filet of fish", 5], ["small fries", 2], ["medium fries", 3]];
+console.log(myList);
