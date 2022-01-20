@@ -1,0 +1,56 @@
+// SOLVE THIS:
+Combine the two if statements into one statement which returns the string Outside if val is not between 10 and 20, inclusive. Otherwise, return the string Inside.
+
+function testLogicalOr(val) {
+  // Only change code below this line
+
+  if (val) {
+    return "Outside";
+  }
+
+  if (val) {
+    return "Outside";
+  }
+
+  // Only change code above this line
+  return "Inside";
+}
+
+testLogicalOr(15);
+
+
+
+// SOLUTION BELOW THIS LINE
+
+function testLogicalOr(val) {
+  // Only change code below this line
+
+  if (val < 10 || val > 20) {
+    return "Outside";
+  }
+
+  
+  
+
+  // Only change code above this line
+  return "Inside";
+}
+console.log(testLogicalOr(0));
+console.log(testLogicalOr(9));
+console.log(testLogicalOr(10));
+console.log(testLogicalOr(15));
+console.log(testLogicalOr(19));
+console.log(testLogicalOr(20));
+console.log(testLogicalOr(21));
+console.log(testLogicalOr(25));
+
+
+// OUTPUT 
+Outside
+Outside
+Inside
+Inside
+Inside
+Inside
+Outside
+Outside
