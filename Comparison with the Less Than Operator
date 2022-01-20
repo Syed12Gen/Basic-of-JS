@@ -1,0 +1,44 @@
+// SOLVE THIS:
+Add the less than operator to the indicated lines so that the return statements make sense.
+function testLessThan(val) {
+  if (val) {  // Change this line
+    return "Under 25";
+  }
+
+  if (val) {  // Change this line
+    return "Under 55";
+  }
+
+  return "55 or Over";
+}
+
+testLessThan(0);
+
+
+// SOLUTION BELOW THIS LINE:
+function testLessThan(val) {
+  if (val<25) {  // Change this line
+    return "Under 25";
+  }
+
+  if (val<55) {  // Change this line
+    return "Under 55";
+  }
+
+  return "55 or Over";
+}
+
+console.log(testLessThan(0));
+console.log(testLessThan(24));
+console.log(testLessThan(25));
+console.log(testLessThan(54));
+console.log(testLessThan(55));
+console.log(testLessThan(99));
+
+// OUTPUT
+Under 25
+Under 25
+Under 55
+Under 55
+55 or Over
+55 or Over
